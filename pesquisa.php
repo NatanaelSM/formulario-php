@@ -69,7 +69,10 @@
                                     <td>$data_nascimento</td>
                                     <td>
                                         <a href='cadastro_edit.php?id=$cod_pessoa' class='btn btn-primary'>Editar</a>
-                                        <a href='' class='btn btn-danger'>Excluir</a>
+                                        <form action='excluir_script.php' method='post'>
+                                            <input type='submit' class='btn btn-danger' value='Excluir'>
+                                            <input type='hidden' name='id' value='$cod_pessoa'>
+                                        </form>
                                     </td>
                                 </tr>";
                         }
