@@ -32,8 +32,8 @@
                         <input type="email" class="form-control" name="email">
                     </div>
                     <div class="mb-3 form-group">
-                        <label for="data-nascimento" class="form-label">Data de Nascimento</label>
-                        <input type="date" class="form-control" name="nascimento">
+                        <label for="data_nascimento" class="form-label">Data de Nascimento</label>
+                        <input type="date" class="form-control" name="data_nascimento">
                     </div>
                     <button type="submit" class="btn btn-success">Submit</button>
                 </form>
